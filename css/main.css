@@ -72,4 +72,63 @@ ul {
     margin-bottom: 29px;
 }
 
+.aboutme .secondtitle {
+    max-width: 130px;
+    display:block;
+    margin: auto;
+    margin-bottom: 89px;
 
+
+    font-size: 26px;
+    line-height:1.269;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.aboutme .container {
+    padding-top: 80px;
+    padding-bottom: 157px;
+}
+.aboutme-list {
+    display:flex;
+    justify-content: center;
+}
+.aboutme-list-item {
+    max-width: 394px;
+}
+.aboutme-list-item:not(:last-child) {
+    margin-right: 156px;
+}
+.aboutme-list-item .item-title {
+    margin-bottom: 45px;
+
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.item-text {
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.underlist-item {
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+
+    color:rgba(0, 0, 0, 0.5);
+}
+span.element {
+    margin-right: 29px;
+
+    font-size: 16px;
+    line-height: 2.063;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color:var(--secondary-bgc);
+}
