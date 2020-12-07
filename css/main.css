@@ -27,10 +27,10 @@ ul {
     margin-right: auto;
     width: 1200px;
     padding: 0 15px;
-    outline: 1px solid black;
 }
 .button {
     max-width: 218px;
+    height: 55px;
     border: 1px solid #ffffff;
     border-radius: 27.5px;
     padding: 20px 32px;
@@ -44,7 +44,14 @@ ul {
     letter-spacing: 0.02em;
 
     cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
+
+/* HEADER SECTION */
 
 .header {
     background-color: var(--secondary-bgc);
@@ -72,6 +79,8 @@ ul {
     margin-bottom: 29px;
 }
 
+/* ABOUT ME SECTION */
+
 .aboutme .secondtitle {
     max-width: 130px;
     display:block;
@@ -97,7 +106,7 @@ ul {
     max-width: 394px;
 }
 .aboutme-list-item:not(:last-child) {
-    margin-right: 156px;
+    margin-right: 94px;
 }
 .aboutme-list-item .item-title {
     margin-bottom: 45px;
@@ -131,4 +140,128 @@ span.element {
     font-weight: 700;
     letter-spacing: 0.02em;
     color:var(--secondary-bgc);
+}
+
+/* WHY ME SECTION */
+
+.whyme .container {
+    text-align: center;
+    padding-bottom: 75px;
+}
+.whyme-list {
+    display: flex;
+    justify-content: center;
+}
+.whyme .secondtitle {
+    font-size: 26px;
+    line-height: 1.269;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+
+    margin-bottom: 68px;
+}
+.item-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 75px;
+    height: 75px;
+    border: 1px solid #2f383b;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+.whyme-list-item:nth-child(2n) .item-bg {
+    border: 1px solid transparent;
+    background-color: #2f383b;
+    color:var(--main-color);
+}
+.item-number {
+    font-size: 30px;
+    line-height: 1.1;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.whyme-list-item {
+    text-align: center;
+}
+.whyme-list-item:not(:last-child){
+    margin-right: 150px;
+}
+.item-descrp {
+    margin-bottom: 64px;
+
+    font-size: 16px;
+    line-height:2.063;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #2f383b;
+}
+.whyme .undertitle {
+    margin-bottom: 25px;
+
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #2f383b;
+}
+.undertitle-text {
+    margin: 0 auto;
+    max-width: 415px;
+    margin-bottom: 27px;
+
+    font-size: 14px;
+    line-height: 1.643;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #2f383b;
+}
+.whyme .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 55px;
+    background-color: #2f383b;
+    color:var(--main-color);
+}
+
+/* FOOTER SECTION */
+footer {
+    background-color: var(--secondary-color);
+}
+.footer .container {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-text {
+    font-size: 13px;
+    line-height: 2.923;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    opacity: 0.54;
+}
+.footer-link {
+    font-size: 13px;
+    line-height: 2.923;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    opacity: 0.54;
+    text-decoration: none;
+}
+.footer-link:hover,
+.footer-link:focus {
+    text-decoration: underline;
+    opacity: 1;
+    color:var(--main-color);
 }
