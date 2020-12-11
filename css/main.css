@@ -123,14 +123,32 @@ ul {
     font-weight: 400;
     letter-spacing: 0.02em;
 }
-
+.aboutme-underlist {
+    max-width: 475px;
+}
 .underlist-item {
+    display: inline-flex;
+    align-items: center;
+
     font-size: 15px;
     line-height: 1.6;
     font-weight: 400;
     letter-spacing: 0.02em;
 
     color:rgba(0, 0, 0, 0.5);
+}
+.icon {
+    margin-right: 24px;
+    fill: #4e8598;
+}
+.icon.bell {
+    margin-right: 23px;
+}
+.icon.storm {
+    margin-right: 30px;
+}
+.icon.camera {
+    margin-right: 19px;
 }
 span.element {
     margin-right: 29px;
@@ -139,9 +157,11 @@ span.element {
     line-height: 2.063;
     font-weight: 700;
     letter-spacing: 0.02em;
-    color:var(--secondary-bgc);
+    color: var(--secondary-bgc);
 }
-
+.underlist-item .text {
+    max-width: 200px;
+}
 /* WHY ME SECTION */
 
 .whyme .container {
